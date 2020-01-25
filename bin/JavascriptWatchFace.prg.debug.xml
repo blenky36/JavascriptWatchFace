@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+<pcToLineNum>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceApp.mc" id="3" lineNum="6" pc="268435456" symbol="initialize"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceApp.mc" id="3" lineNum="7" pc="268435460" symbol="initialize"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceApp.mc" id="4" lineNum="11" pc="268435479" symbol="onStart"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceApp.mc" id="5" lineNum="15" pc="268435484" symbol="onStop"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceApp.mc" id="6" lineNum="19" pc="268435489" symbol="getInitialView"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceApp.mc" id="6" lineNum="20" pc="268435493" symbol="getInitialView"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceView.mc" id="8" lineNum="22" pc="268435531" symbol="initialize"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceView.mc" id="8" lineNum="23" pc="268435535" symbol="initialize"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceView.mc" id="9" lineNum="27" pc="268435554" symbol="onLayout"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceView.mc" id="9" lineNum="28" pc="268435558" symbol="onLayout"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceView.mc" id="10" lineNum="36" pc="268435596" symbol="onShow"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceView.mc" id="10" lineNum="37" pc="268435600" symbol="onShow"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceView.mc" id="10" lineNum="55" pc="268437202" symbol="onShow"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceView.mc" id="10" lineNum="56" pc="268437226" symbol="onShow"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceView.mc" id="10" lineNum="57" pc="268437256" symbol="onShow"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceView.mc" id="10" lineNum="58" pc="268437279" symbol="onShow"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceView.mc" id="10" lineNum="59" pc="268437313" symbol="onShow"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceView.mc" id="10" lineNum="60" pc="268437341" symbol="onShow"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceView.mc" id="10" lineNum="61" pc="268437364" symbol="onShow"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceView.mc" id="10" lineNum="62" pc="268437392" symbol="onShow"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceView.mc" id="11" lineNum="69" pc="268437429" symbol="onUpdate"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceView.mc" id="11" lineNum="70" pc="268437433" symbol="onUpdate"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceView.mc" id="11" lineNum="71" pc="268437457" symbol="onUpdate"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceView.mc" id="11" lineNum="72" pc="268437481" symbol="onUpdate"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceView.mc" id="11" lineNum="73" pc="268437505" symbol="onUpdate"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceView.mc" id="11" lineNum="74" pc="268437529" symbol="onUpdate"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceView.mc" id="11" lineNum="75" pc="268437553" symbol="onUpdate"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceView.mc" id="11" lineNum="77" pc="268437577" symbol="onUpdate"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceView.mc" id="11" lineNum="78" pc="268437601" symbol="onUpdate"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceView.mc" id="11" lineNum="79" pc="268437625" symbol="onUpdate"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceView.mc" id="11" lineNum="80" pc="268437649" symbol="onUpdate"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceView.mc" id="11" lineNum="81" pc="268437673" symbol="onUpdate"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceView.mc" id="11" lineNum="83" pc="268437697" symbol="onUpdate"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceView.mc" id="11" lineNum="84" pc="268437713" symbol="onUpdate"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceView.mc" id="11" lineNum="85" pc="268437729" symbol="onUpdate"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceView.mc" id="11" lineNum="86" pc="268437745" symbol="onUpdate"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceView.mc" id="11" lineNum="87" pc="268437761" symbol="onUpdate"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceView.mc" id="11" lineNum="90" pc="268437779" symbol="onUpdate"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceView.mc" id="12" lineNum="96" pc="268437800" symbol="onHide"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceView.mc" id="13" lineNum="100" pc="268437805" symbol="onExitSleep"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceView.mc" id="14" lineNum="104" pc="268437810" symbol="onEnterSleep"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceView.mc" id="15" lineNum="107" pc="268437815" symbol="showAndPositionTime"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceView.mc" id="15" lineNum="109" pc="268437819" symbol="showAndPositionTime"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceView.mc" id="15" lineNum="110" pc="268437836" symbol="showAndPositionTime"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceView.mc" id="15" lineNum="111" pc="268437910" symbol="showAndPositionTime"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceView.mc" id="15" lineNum="112" pc="268437936" symbol="showAndPositionTime"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceView.mc" id="15" lineNum="113" pc="268437979" symbol="showAndPositionTime"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceView.mc" id="15" lineNum="114" pc="268437999" symbol="showAndPositionTime"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceView.mc" id="15" lineNum="116" pc="268438045" symbol="showAndPositionTime"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceView.mc" id="16" lineNum="121" pc="268438089" symbol="showAndPositionBattery"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceView.mc" id="16" lineNum="123" pc="268438093" symbol="showAndPositionBattery"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceView.mc" id="16" lineNum="124" pc="268438125" symbol="showAndPositionBattery"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceView.mc" id="16" lineNum="125" pc="268438151" symbol="showAndPositionBattery"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceView.mc" id="16" lineNum="126" pc="268438200" symbol="showAndPositionBattery"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceView.mc" id="16" lineNum="127" pc="268438211" symbol="showAndPositionBattery"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceView.mc" id="17" lineNum="131" pc="268438264" symbol="showAndPositionDate"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceView.mc" id="17" lineNum="133" pc="268438268" symbol="showAndPositionDate"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceView.mc" id="17" lineNum="134" pc="268438312" symbol="showAndPositionDate"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceView.mc" id="17" lineNum="135" pc="268438356" symbol="showAndPositionDate"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceView.mc" id="17" lineNum="137" pc="268438445" symbol="showAndPositionDate"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceView.mc" id="17" lineNum="138" pc="268438471" symbol="showAndPositionDate"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceView.mc" id="17" lineNum="139" pc="268438520" symbol="showAndPositionDate"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceView.mc" id="17" lineNum="140" pc="268438540" symbol="showAndPositionDate"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceView.mc" id="17" lineNum="141" pc="268438592" symbol="showAndPositionDate"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceView.mc" id="17" lineNum="142" pc="268438612" symbol="showAndPositionDate"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceView.mc" id="17" lineNum="144" pc="268438664" symbol="showAndPositionDate"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceView.mc" id="18" lineNum="148" pc="268438714" symbol="showAndPositionHR"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceView.mc" id="18" lineNum="150" pc="268438718" symbol="showAndPositionHR"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceView.mc" id="18" lineNum="153" pc="268438743" symbol="showAndPositionHR"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceView.mc" id="18" lineNum="154" pc="268438750" symbol="showAndPositionHR"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceView.mc" id="18" lineNum="155" pc="268438757" symbol="showAndPositionHR"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceView.mc" id="18" lineNum="156" pc="268438809" symbol="showAndPositionHR"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceView.mc" id="18" lineNum="157" pc="268438838" symbol="showAndPositionHR"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceView.mc" id="18" lineNum="158" pc="268438890" symbol="showAndPositionHR"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceView.mc" id="18" lineNum="159" pc="268438919" symbol="showAndPositionHR"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceView.mc" id="18" lineNum="161" pc="268438971" symbol="showAndPositionHR"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceView.mc" id="18" lineNum="163" pc="268439020" symbol="showAndPositionHR"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceView.mc" id="18" lineNum="164" pc="268439046" symbol="showAndPositionHR"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceView.mc" id="19" lineNum="167" pc="268439096" symbol="showAndPositionStepsAndCalories"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceView.mc" id="19" lineNum="169" pc="268439100" symbol="showAndPositionStepsAndCalories"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceView.mc" id="19" lineNum="172" pc="268439117" symbol="showAndPositionStepsAndCalories"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceView.mc" id="19" lineNum="173" pc="268439149" symbol="showAndPositionStepsAndCalories"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceView.mc" id="19" lineNum="175" pc="268439198" symbol="showAndPositionStepsAndCalories"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceView.mc" id="19" lineNum="176" pc="268439233" symbol="showAndPositionStepsAndCalories"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceView.mc" id="19" lineNum="177" pc="268439285" symbol="showAndPositionStepsAndCalories"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceView.mc" id="19" lineNum="178" pc="268439320" symbol="showAndPositionStepsAndCalories"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceView.mc" id="19" lineNum="179" pc="268439372" symbol="showAndPositionStepsAndCalories"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceView.mc" id="19" lineNum="180" pc="268439407" symbol="showAndPositionStepsAndCalories"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceView.mc" id="19" lineNum="181" pc="268439459" symbol="showAndPositionStepsAndCalories"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceView.mc" id="19" lineNum="182" pc="268439494" symbol="showAndPositionStepsAndCalories"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceView.mc" id="19" lineNum="183" pc="268439546" symbol="showAndPositionStepsAndCalories"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceView.mc" id="19" lineNum="184" pc="268439581" symbol="showAndPositionStepsAndCalories"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceView.mc" id="19" lineNum="187" pc="268439633" symbol="showAndPositionStepsAndCalories"/>
+<entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceView.mc" id="19" lineNum="188" pc="268439665" symbol="showAndPositionStepsAndCalories"/>
+<entry filename="Rez" id="23" lineNum="11" pc="268439715" symbol="initialize"/>
+<entry filename="Rez" id="23" lineNum="12" pc="268439719" symbol="initialize"/>
+<entry filename="Rez" id="24" lineNum="15" pc="268439744" symbol="draw"/>
+<entry filename="Rez" id="24" lineNum="16" pc="268439748" symbol="draw"/>
+<entry filename="Rez" id="24" lineNum="17" pc="268439784" symbol="draw"/>
+<entry filename="Rez" id="24" lineNum="18" pc="268439816" symbol="draw"/>
+<entry filename="Rez" id="24" lineNum="20" pc="268439852" symbol="draw"/>
+<entry filename="Rez" id="24" lineNum="21" pc="268439888" symbol="draw"/>
+<entry filename="Rez" id="28" lineNum="38" pc="268439916" symbol="WatchFace"/>
+<entry filename="Rez" id="28" lineNum="40" pc="268439928" symbol="WatchFace"/>
+<entry filename="Rez" id="28" lineNum="41" pc="268439968" symbol="WatchFace"/>
+<entry filename="Rez" id="28" lineNum="42" pc="268439981" symbol="WatchFace"/>
+<entry filename="Rez" id="28" lineNum="44" pc="268439997" symbol="WatchFace"/>
+<entry filename="Rez" id="28" lineNum="45" pc="268440160" symbol="WatchFace"/>
+<entry filename="Rez" id="28" lineNum="46" pc="268440323" symbol="WatchFace"/>
+<entry filename="Rez" id="28" lineNum="47" pc="268440486" symbol="WatchFace"/>
+<entry filename="Rez" id="28" lineNum="48" pc="268440649" symbol="WatchFace"/>
+<entry filename="Rez" id="28" lineNum="49" pc="268440812" symbol="WatchFace"/>
+<entry filename="Rez" id="28" lineNum="50" pc="268440975" symbol="WatchFace"/>
+<entry filename="Rez" id="28" lineNum="51" pc="268441138" symbol="WatchFace"/>
+<entry filename="Rez" id="28" lineNum="52" pc="268441301" symbol="WatchFace"/>
+<entry filename="Rez" id="28" lineNum="53" pc="268441464" symbol="WatchFace"/>
+<entry filename="Rez" id="28" lineNum="54" pc="268441627" symbol="WatchFace"/>
+<entry filename="Rez" id="28" lineNum="55" pc="268441790" symbol="WatchFace"/>
+<entry filename="Rez" id="28" lineNum="56" pc="268441953" symbol="WatchFace"/>
+<entry filename="Rez" id="28" lineNum="57" pc="268442116" symbol="WatchFace"/>
+<entry filename="Rez" id="28" lineNum="58" pc="268442279" symbol="WatchFace"/>
+<entry filename="Rez" id="28" lineNum="59" pc="268442442" symbol="WatchFace"/>
+<entry filename="Rez" id="28" lineNum="60" pc="268442605" symbol="WatchFace"/>
+<entry filename="Rez" id="28" lineNum="61" pc="268442768" symbol="WatchFace"/>
+<entry filename="Rez" id="28" lineNum="62" pc="268442931" symbol="WatchFace"/>
+<entry filename="Rez" id="28" lineNum="63" pc="268443094" symbol="WatchFace"/>
+<entry filename="Rez" id="28" lineNum="64" pc="268443257" symbol="WatchFace"/>
+<entry filename="Rez" id="28" lineNum="65" pc="268443420" symbol="WatchFace"/>
+<entry filename="Rez" id="28" lineNum="67" pc="268443583" symbol="WatchFace"/>
+</pcToLineNum>
+<symbolTable>
+<entry id="8388644" module="true" symbol="System"/>
+<entry id="9" object="true" symbol="JavascriptWatchFaceApp"/>
+<entry id="8389124" method="true" symbol="onUpdate"/>
+<entry id="8389349" symbol="justification"/>
+<entry field="true" id="15" symbol="baseY"/>
+<entry field="true" id="14" symbol="baseX"/>
+<entry field="true" id="12" symbol="valuesColor"/>
+<entry field="true" id="8388611" module="true" symbol="Toybox"/>
+<entry id="19" method="true" symbol="showAndPositionBattery"/>
+<entry id="8388645" module="true" symbol="Time"/>
+<entry id="10" object="true" symbol="JavascriptWatchFaceView"/>
+<entry field="true" id="16" symbol="keyX"/>
+<entry id="18" method="true" symbol="showAndPositionTime"/>
+<entry id="8388770" module="true" object="true" symbol="Strings"/>
+<entry id="8389280" method="true" symbol="getInitialView"/>
+<entry id="8389068" method="true" symbol="draw"/>
+<entry id="8389377" method="true" symbol="onExitSleep"/>
+<entry id="8388640" module="true" symbol="Lang"/>
+<entry id="8388639" module="true" symbol="Graphics"/>
+<entry id="8388769" module="true" object="true" symbol="Rez"/>
+<entry id="8389123" method="true" symbol="onShow"/>
+<entry id="8388924" module="true" symbol="Gregorian"/>
+<entry id="22" method="true" symbol="showAndPositionStepsAndCalories"/>
+<entry id="8388702" method="true" symbol="initialize"/>
+<entry field="true" id="26" symbol="AppName"/>
+<entry id="8389375" method="true" object="true" symbol="WatchFace"/>
+<entry id="21" method="true" symbol="showAndPositionHR"/>
+<entry field="true" id="25" symbol="LauncherIcon"/>
+<entry id="8388648" module="true" symbol="WatchUi"/>
+<entry id="8389281" method="true" symbol="onStop"/>
+<entry field="true" id="8389065" symbol="locY"/>
+<entry field="true" id="8389064" symbol="locX"/>
+<entry id="8388771" module="true" object="true" symbol="Drawables"/>
+<entry id="8389122" method="true" symbol="onLayout"/>
+<entry field="true" id="13" symbol="commaColor"/>
+<entry id="8389279" method="true" symbol="onStart"/>
+<entry id="8389376" method="true" symbol="onEnterSleep"/>
+<entry id="8389348" symbol="font"/>
+<entry id="8389347" symbol="color"/>
+<entry id="23" module="true" symbol="Layouts"/>
+<entry id="8389125" method="true" symbol="onHide"/>
+<entry field="true" id="17" symbol="lineBreak"/>
+<entry field="true" id="8389892" object="true" symbol="background"/>
+<entry id="20" method="true" symbol="showAndPositionDate"/>
+<entry id="8390088" module="true" object="true" symbol="JsonData"/>
+<entry field="true" id="8389063" symbol="identifier"/>
+<entry id="24" module="true" symbol="Menus"/>
+<entry field="true" id="11" symbol="keyColor"/>
+<entry id="8388772" module="true" object="true" symbol="Fonts"/>
+<entry id="8388633" module="true" symbol="ActivityMonitor"/>
+<entry id="8388635" module="true" symbol="Application"/>
+</symbolTable>
+<localVars>
+<entry endPc="268435484" name="state" stackId="1" startPc="268435479"/>
+<entry endPc="268435489" name="state" stackId="1" startPc="268435484"/>
+<entry endPc="268435596" name="dc" stackId="1" startPc="268435554"/>
+<entry endPc="268437415" name="view" stackId="3" startPc="268437226"/>
+<entry endPc="268437428" name="i" stackId="2" startPc="268437226"/>
+<entry endPc="268437428" name="drawables" stackId="1" startPc="268435600"/>
+<entry endPc="268437799" name="stepsComma" stackId="12" startPc="268437433"/>
+<entry endPc="268437799" name="hrComma" stackId="11" startPc="268437433"/>
+<entry endPc="268437799" name="timeValue" stackId="2" startPc="268437433"/>
+<entry endPc="268437799" name="caloriesValue" stackId="6" startPc="268437433"/>
+<entry endPc="268437799" name="dateValue" stackId="3" startPc="268437433"/>
+<entry endPc="268437799" name="timeComma" stackId="8" startPc="268437433"/>
+<entry endPc="268437799" name="dateComma" stackId="10" startPc="268437433"/>
+<entry endPc="268437799" name="batteryValue" stackId="4" startPc="268437433"/>
+<entry endPc="268437799" name="stepsValue" stackId="5" startPc="268437433"/>
+<entry endPc="268437799" name="batteryComma" stackId="9" startPc="268437433"/>
+<entry endPc="268437799" name="hrValue" stackId="7" startPc="268437433"/>
+<entry endPc="268437800" name="dc" stackId="1" startPc="268437429"/>
+<entry endPc="268438088" name="timeString" stackId="4" startPc="268437819"/>
+<entry endPc="268438088" name="clockTime" stackId="3" startPc="268437819"/>
+<entry endPc="268438089" name="comma" stackId="2" startPc="268437815"/>
+<entry endPc="268438089" name="value" stackId="1" startPc="268437815"/>
+<entry endPc="268438263" name="battery" stackId="3" startPc="268438093"/>
+<entry endPc="268438264" name="comma" stackId="2" startPc="268438089"/>
+<entry endPc="268438264" name="value" stackId="1" startPc="268438089"/>
+<entry endPc="268438713" name="shortYear" stackId="4" startPc="268438268"/>
+<entry endPc="268438713" name="now" stackId="3" startPc="268438268"/>
+<entry endPc="268438713" name="dateString" stackId="5" startPc="268438268"/>
+<entry endPc="268438714" name="comma" stackId="2" startPc="268438264"/>
+<entry endPc="268438714" name="value" stackId="1" startPc="268438264"/>
+<entry endPc="268439095" name="hr" stackId="3" startPc="268438718"/>
+<entry endPc="268439096" name="comma" stackId="2" startPc="268438714"/>
+<entry endPc="268439096" name="value" stackId="1" startPc="268438714"/>
+<entry endPc="268439714" name="info" stackId="4" startPc="268439100"/>
+<entry endPc="268439715" name="comma" stackId="2" startPc="268439096"/>
+<entry endPc="268439715" name="cValue" stackId="3" startPc="268439096"/>
+<entry endPc="268439715" name="sValue" stackId="1" startPc="268439096"/>
+<entry endPc="268439916" name="dc" stackId="1" startPc="268439744"/>
+<entry endPc="268443820" name="rez_cmp_local_text_ObjectName" stackId="4" startPc="268439928"/>
+<entry endPc="268443820" name="rez_cmp_local_text_CaloriesKey" stackId="23" startPc="268439928"/>
+<entry endPc="268443820" name="rez_cmp_local_text_BatteryComma" stackId="16" startPc="268439928"/>
+<entry endPc="268443820" name="rez_cmp_local_text_CaloriesValue" stackId="24" startPc="268439928"/>
+<entry endPc="268443820" name="rez_cmp_local_custom_drawable_background" stackId="2" startPc="268439928"/>
+<entry endPc="268443820" name="rez_cmp_local_text_StepsValue" stackId="21" startPc="268439928"/>
+<entry endPc="268443820" name="rez_cmp_local_text_DateValue" stackId="12" startPc="268439928"/>
+<entry endPc="268443820" name="rez_cmp_local_text_HRKey" stackId="17" startPc="268439928"/>
+<entry endPc="268443820" name="rez_cmp_local_text_BottomBracket" stackId="7" startPc="268439928"/>
+<entry endPc="268443820" name="rez_cmp_local_text_HRValue" stackId="18" startPc="268439928"/>
+<entry endPc="268443820" name="rez_cmp_local_text_TopBracket" stackId="6" startPc="268439928"/>
+<entry endPc="268443820" name="rez_cmp_local_text_Equals" stackId="5" startPc="268439928"/>
+<entry endPc="268443820" name="rez_cmp_local_text_TimeValue" stackId="9" startPc="268439928"/>
+<entry endPc="268443820" name="rez_cmp_local_text_StepsKey" stackId="20" startPc="268439928"/>
+<entry endPc="268443820" name="rez_cmp_local_text_DateKey" stackId="11" startPc="268439928"/>
+<entry endPc="268443820" name="rez_cmp_local_text_StepsComma" stackId="22" startPc="268439928"/>
+<entry endPc="268443820" name="rez_cmp_local_text_DateComma" stackId="13" startPc="268439928"/>
+<entry endPc="268443820" name="rez_cmp_local_text_Let" stackId="3" startPc="268439928"/>
+<entry endPc="268443820" name="rez_cmp_local_text_HRComma" stackId="19" startPc="268439928"/>
+<entry endPc="268443820" name="rez_cmp_local_text_TimeKey" stackId="8" startPc="268439928"/>
+<entry endPc="268443820" name="rez_cmp_local_text_TimeComma" stackId="10" startPc="268439928"/>
+<entry endPc="268443820" name="rez_cmp_local_text_BatteryKey" stackId="14" startPc="268439928"/>
+<entry endPc="268443820" name="rez_cmp_local_text_BatteryValue" stackId="15" startPc="268439928"/>
+<entry endPc="268443821" name="dc" stackId="1" startPc="268439916"/>
+</localVars>
+<annotations/>
+<dataEntryOffsetMappings>
+<dataEntry offset="87" parentId="" symbolId="globals" type="module"/>
+<dataEntry offset="166" parentId="globals" symbolId="JavascriptWatchFaceView" type="class"/>
+<dataEntry offset="357" parentId="globals" symbolId="JavascriptWatchFaceApp" type="class"/>
+<dataEntry offset="428" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry offset="507" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry offset="554" parentId="Drawables" symbolId="background" type="class"/>
+<dataEntry offset="609" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry offset="640" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry offset="671" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry offset="710" parentId="Rez" symbolId="JsonData" type="module"/>
+<dataEntry offset="741" parentId="Rez" symbolId="Strings" type="module"/>
+</dataEntryOffsetMappings>
+<functions>
+<functionEntry accessMode="public" name="initialize" parent="JavascriptWatchFaceApp">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onStart" parent="JavascriptWatchFaceApp">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onStop" parent="JavascriptWatchFaceApp">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getInitialView" parent="JavascriptWatchFaceApp">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="JavascriptWatchFaceView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onLayout" parent="JavascriptWatchFaceView">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onShow" parent="JavascriptWatchFaceView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onUpdate" parent="JavascriptWatchFaceView">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onHide" parent="JavascriptWatchFaceView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onExitSleep" parent="JavascriptWatchFaceView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onEnterSleep" parent="JavascriptWatchFaceView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="showAndPositionTime" parent="JavascriptWatchFaceView">
+<param id="value"/>
+<param id="comma"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="showAndPositionBattery" parent="JavascriptWatchFaceView">
+<param id="value"/>
+<param id="comma"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="showAndPositionDate" parent="JavascriptWatchFaceView">
+<param id="value"/>
+<param id="comma"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="showAndPositionHR" parent="JavascriptWatchFaceView">
+<param id="value"/>
+<param id="comma"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="showAndPositionStepsAndCalories" parent="JavascriptWatchFaceView">
+<param id="sValue"/>
+<param id="comma"/>
+<param id="cValue"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="background">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="draw" parent="background">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="WatchFace" parent="Layouts">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+</functions>
+</debugInfo>
