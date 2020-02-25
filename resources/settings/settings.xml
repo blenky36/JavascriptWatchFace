@@ -1,27 +1,99 @@
 <settings>
 
-  <!--   <setting propertyKey="@Properties.appVersion" title="@Strings.AppVersionTitle">
-        <settingConfig type="alphaNumeric" readonly="true" />
-    </setting>
-
-    <setting propertyKey="@Properties.myString" title="@Strings.MyStringTitle" prompt="@Strings.MyStringPrompt">
+	<setting propertyKey="@Properties.backgroundColor" title="@Strings.backgroundColor" prompt="@Strings.objKeyColorPrompt">
         <settingConfig type="list">
-            <listEntry value="0">@Strings.HelloWorld</listEntry>
-            <listEntry value="1">@Strings.Ackbar</listEntry>
-            <listEntry value="2">@Strings.Garmin</listEntry>
+            <listEntry value="0x000000">@Strings.Black</listEntry>
+            <listEntry value="0x555555">@Strings.Dark_Grey</listEntry>
+            <listEntry value="0xAAAAAA">@Strings.Light_Grey</listEntry>
+            <listEntry value="0xFFFFFF">@Strings.White</listEntry>
         </settingConfig>
     </setting>
+    
+    <setting propertyKey="@Properties.varColor"
+		title="@Strings.objVarColor" prompt="@Strings.objVarColorPrompt">
+		<settingConfig type="list">
+			<listEntry value="0">@Strings.Black</listEntry>
+			<listEntry value="1">@Strings.White</listEntry>
+			<listEntry value="2">@Strings.Grey</listEntry>
+			<listEntry value="3">@Strings.Dark_Blue</listEntry>
+			<listEntry value="4">@Strings.Blue</listEntry>
+			<listEntry value="5">@Strings.Orange</listEntry>
+			<listEntry value="6">@Strings.Yellow</listEntry>
+			<listEntry value="7">@Strings.Red</listEntry>
+			<listEntry value="8">@Strings.Green</listEntry>
+			<listEntry value="9">@Strings.Purple</listEntry>
+			<listEntry value="10">@Strings.Pink</listEntry>
+		</settingConfig>
+	</setting>
 
-    <setting propertyKey="@Properties.myNumber" title="@Strings.MyNumberTitle" prompt="@Strings.MyNumberPrompt">
-        <settingConfig type="numeric" errorMessage="@Strings.MyNumberError" />
-    </setting>
+	<setting propertyKey="@Properties.keyColor"
+		title="@Strings.objKeyColor" prompt="@Strings.objKeyColorPrompt">
+		<settingConfig type="list">
+			<listEntry value="0">@Strings.Black</listEntry>
+			<listEntry value="1">@Strings.White</listEntry>
+			<listEntry value="2">@Strings.Grey</listEntry>
+			<listEntry value="3">@Strings.Dark_Blue</listEntry>
+			<listEntry value="4">@Strings.Blue</listEntry>
+			<listEntry value="5">@Strings.Orange</listEntry>
+			<listEntry value="6">@Strings.Yellow</listEntry>
+			<listEntry value="7">@Strings.Red</listEntry>
+			<listEntry value="8">@Strings.Green</listEntry>
+			<listEntry value="9">@Strings.Purple</listEntry>
+			<listEntry value="10">@Strings.Pink</listEntry>
+		</settingConfig>
+	</setting>
 
-    <setting propertyKey="@Properties.screenSleep" title="@Strings.ScreenSleepTitle">
-        <settingConfig type="boolean" />
-    </setting>
+	<setting propertyKey="@Properties.valueColor"
+		title="@Strings.objValueColor" prompt="@Strings.objValueColorPrompt">
+		<settingConfig type="list">
+			<listEntry value="0">@Strings.Black</listEntry>
+			<listEntry value="1">@Strings.White</listEntry>
+			<listEntry value="2">@Strings.Grey</listEntry>
+			<listEntry value="3">@Strings.Dark_Blue</listEntry>
+			<listEntry value="4">@Strings.Blue</listEntry>
+			<listEntry value="5">@Strings.Orange</listEntry>
+			<listEntry value="6">@Strings.Yellow</listEntry>
+			<listEntry value="7">@Strings.Red</listEntry>
+			<listEntry value="8">@Strings.Green</listEntry>
+			<listEntry value="9">@Strings.Purple</listEntry>
+			<listEntry value="10">@Strings.Pink</listEntry>
+		</settingConfig>
+	</setting>
 
-    <setting propertyKey="@Properties.username" title="@Strings.UsernameTitle">
-        <settingConfig type="alphaNumeric" required="true" />
-    </setting> -->
+	<setting propertyKey="@Properties.bracketColor"
+		title="@Strings.objBracketColor"
+		prompt="@Strings.objBracketColorPrompt">
+		<settingConfig type="list">
+			<listEntry value="0">@Strings.Black</listEntry>
+			<listEntry value="1">@Strings.White</listEntry>
+			<listEntry value="2">@Strings.Grey</listEntry>
+			<listEntry value="3">@Strings.Dark_Blue</listEntry>
+			<listEntry value="4">@Strings.Blue</listEntry>
+			<listEntry value="5">@Strings.Orange</listEntry>
+			<listEntry value="6">@Strings.Yellow</listEntry>
+			<listEntry value="7">@Strings.Red</listEntry>
+			<listEntry value="8">@Strings.Green</listEntry>
+			<listEntry value="9">@Strings.Purple</listEntry>
+			<listEntry value="10">@Strings.Pink</listEntry>
+		</settingConfig>
+	</setting>
+
+	<setting propertyKey="@Properties.commaColor"
+		title="@Strings.objCommaColor" prompt="@Strings.objCommaColorPrompt">
+		<settingConfig type="list">
+			<listEntry value="0">@Strings.Black</listEntry>
+			<listEntry value="1">@Strings.White</listEntry>
+			<listEntry value="2">@Strings.Grey</listEntry>
+			<listEntry value="3">@Strings.Dark_Blue</listEntry>
+			<listEntry value="4">@Strings.Blue</listEntry>
+			<listEntry value="5">@Strings.Orange</listEntry>
+			<listEntry value="6">@Strings.Yellow</listEntry>
+			<listEntry value="7">@Strings.Red</listEntry>
+			<listEntry value="8">@Strings.Green</listEntry>
+			<listEntry value="9">@Strings.Purple</listEntry>
+			<listEntry value="10">@Strings.Pink</listEntry>
+		</settingConfig>
+	</setting>
+
 
 </settings>

@@ -1,5 +1,0 @@
-<properties>
-    <property id="appVersion" type="string">1.0.0</property>
-    <property id="keyColor" type="string">COLOR_BLUE</property>
-    <property id="valuesColor" type="string">COLOR_ORANGE</property>
-</properties>

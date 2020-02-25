@@ -1,3 +1,35 @@
 <strings>
     <string id="AppName">JavascriptWatchFace</string>
+    
+    <string id="objKeyColor">Object Key Colour</string>
+    <string id="objKeyColorPrompt">Set the colour of the object keys.</string>
+    
+    <string id="objValueColor">Object Value Colour</string>
+    <string id="objValueColorPrompt">Set the colour of the object values.</string>
+    
+    <string id="objBracketColor">Object Bracket Colour</string>
+    <string id="objBracketColorPrompt">Set the colour of the object brackets.</string>
+    
+    <string id="objVarColor">Object Key Word Colour</string>
+    <string id="objVarColorPrompt">Set the colour of the object key word.</string>
+    
+    <string id="objCommaColor">Object Comma Colour</string>
+    <string id="objCommaColorPrompt">Set the colour of the object commas.</string>
+    
+    <string id="backgroundColor">Background Colour</string>
+    <string id="backgroundColorPrompt">Set the background colour of the watch face.</string>
+    
+    <string id="Black">Black</string>
+    <string id="White">White</string>
+    <string id="Grey">Grey</string>
+    <string id="Light_Grey">Light Grey</string>
+    <string id="Dark_Grey">Dark Grey</string>
+    <string id="Dark_Blue">Dark Blue</string>
+    <string id="Blue">Blue</string>
+    <string id="Orange">Orange</string>
+    <string id="Yellow">Yellow</string>
+    <string id="Red">Red</string>
+    <string id="Green">Green</string>
+    <string id="Purple">Purple</string>
+    <string id="Pink">Pink</string>
 </strings>

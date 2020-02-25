@@ -1,4 +1,5 @@
 using Toybox.Application;
+using Toybox.WatchUi;
 
 
 class JavascriptWatchFaceApp extends Application.AppBase {
@@ -18,6 +19,11 @@ class JavascriptWatchFaceApp extends Application.AppBase {
     // Return the initial view of your application here
     function getInitialView() {
         return [ new JavascriptWatchFaceView() ];
+    }
+    
+    // New app settings have been received so trigger a UI update
+    function onSettingsChanged() {
+        WatchUi.requestUpdate();
     }
 
 }

@@ -1,94 +1,94 @@
 <layout id="WatchFace">
 
-	<drawable id="background"></drawable>
-    
-    <label id="Let" x="center" y="center"
-    	justification="Graphics.TEXT_JUSTIFY_LEFT"
-    	color="Graphics.COLOR_DK_BLUE" font="Graphics.FONT_SMALL"/>
-    	
-    <label id="ObjectName" x="center" y="center"
-    	justification="Graphics.TEXT_JUSTIFY_LEFT"
-    	color="Graphics.COLOR_BLUE" font="Graphics.FONT_SMALL"/>
-    
-    <label id="Equals" x="center" y="center"
-    	justification="Graphics.TEXT_JUSTIFY_LEFT"
-    	color="Graphics.COLOR_LT_GRAY" font="Graphics.FONT_SMALL"/>
-    	
-    <label id="TopBracket" x="center" y="center"
-    	justification="Graphics.TEXT_JUSTIFY_LEFT"
-    	color="Graphics.COLOR_YELLOW" font="Graphics.FONT_SMALL"/>
-	
+	<drawable class="Background" />
+
+	<label id="Var" x="center" y="center"
+		justification="Graphics.TEXT_JUSTIFY_LEFT"
+		color="Graphics.COLOR_DK_BLUE" font="Graphics.FONT_SMALL" />
+
+	<label id="ObjectName" x="center" y="center"
+		justification="Graphics.TEXT_JUSTIFY_LEFT" color="Graphics.COLOR_BLUE"
+		font="Graphics.FONT_SMALL" />
+
+	<label id="Equals" x="center" y="center"
+		justification="Graphics.TEXT_JUSTIFY_LEFT"
+		color="Graphics.COLOR_LT_GRAY" font="Graphics.FONT_SMALL" />
+
+	<label id="TopBracket" x="center" y="center"
+		justification="Graphics.TEXT_JUSTIFY_LEFT"
+		color="Graphics.COLOR_YELLOW" font="Graphics.FONT_SMALL" />
+
 	<label id="BottomBracket" x="center" y="center"
 		justification="Graphics.TEXT_JUSTIFY_LEFT"
-		color="Graphics.COLOR_YELLOW" font="Graphics.FONT_SMALL"/>
+		color="Graphics.COLOR_YELLOW" font="Graphics.FONT_SMALL" />
 
 	<label id="TimeKey" x="center" y="center"
+		justification="Graphics.TEXT_JUSTIFY_LEFT" color="Graphics.COLOR_BLUE"
+		font="Graphics.FONT_SMALL" />
+
+	<label id="TimeValue" x="center" y="center"
 		justification="Graphics.TEXT_JUSTIFY_LEFT"
-		color="Graphics.COLOR_BLUE" font="Graphics.FONT_SMALL"/>
-		
-	<label id="TimeValue" x="center" y="center" 
-		justification="Graphics.TEXT_JUSTIFY_LEFT" 
-		color="Graphics.COLOR_ORANGE" font="Graphics.FONT_SMALL"  />
-		
-	<label id="TimeComma" x="center" y="center" 
-		justification="Graphics.TEXT_JUSTIFY_LEFT" 
-		color="Graphics.COLOR_WHITE" font="Graphics.FONT_SMALL"  />
-		
-	
+		color="Graphics.COLOR_ORANGE" font="Graphics.FONT_SMALL" />
+
+	<label id="TimeComma" x="center" y="center"
+		justification="Graphics.TEXT_JUSTIFY_LEFT"
+		color="Graphics.COLOR_WHITE" font="Graphics.FONT_SMALL" />
+
+
 	<label id="DateKey" x="center" y="center"
+		justification="Graphics.TEXT_JUSTIFY_LEFT" color="Graphics.COLOR_BLUE"
+		font="Graphics.FONT_SMALL" />
+
+	<label id="DateValue" x="center" y="center"
 		justification="Graphics.TEXT_JUSTIFY_LEFT"
-		color="Graphics.COLOR_BLUE" font="Graphics.FONT_SMALL"/>
-		
-	<label id="DateValue" x="center" y="center" 
-		justification="Graphics.TEXT_JUSTIFY_LEFT" 
-		color="Graphics.COLOR_ORANGE" font="Graphics.FONT_SMALL"  />
-		
-	<label id="DateComma" x="center" y="center" 
-		justification="Graphics.TEXT_JUSTIFY_LEFT" 
-		color="Graphics.COLOR_WHITE" font="Graphics.FONT_SMALL"  />
-		
+		color="Graphics.COLOR_ORANGE" font="Graphics.FONT_SMALL" />
+
+	<label id="DateComma" x="center" y="center"
+		justification="Graphics.TEXT_JUSTIFY_LEFT"
+		color="Graphics.COLOR_WHITE" font="Graphics.FONT_SMALL" />
+
 	<label id="BatteryKey" x="center" y="center"
+		justification="Graphics.TEXT_JUSTIFY_LEFT" color="Graphics.COLOR_BLUE"
+		font="Graphics.FONT_SMALL" />
+
+	<label id="BatteryValue" x="center" y="center"
 		justification="Graphics.TEXT_JUSTIFY_LEFT"
-		color="Graphics.COLOR_BLUE" font="Graphics.FONT_SMALL"/>
-		
-	<label id="BatteryValue" x="center" y="center" 
-		justification="Graphics.TEXT_JUSTIFY_LEFT" 
-		color="Graphics.COLOR_ORANGE" font="Graphics.FONT_SMALL"  />
-	
-	<label id="BatteryComma" x="center" y="center" 
-		justification="Graphics.TEXT_JUSTIFY_LEFT" 
-		color="Graphics.COLOR_WHITE" font="Graphics.FONT_SMALL"  />
-	
+		color="Graphics.COLOR_ORANGE" font="Graphics.FONT_SMALL" />
+
+	<label id="BatteryComma" x="center" y="center"
+		justification="Graphics.TEXT_JUSTIFY_LEFT"
+		color="Graphics.COLOR_WHITE" font="Graphics.FONT_SMALL" />
+
 	<label id="HRKey" x="center" y="center"
+		justification="Graphics.TEXT_JUSTIFY_LEFT" color="Graphics.COLOR_BLUE"
+		font="Graphics.FONT_SMALL" />
+
+	<label id="HRValue" x="center" y="center"
 		justification="Graphics.TEXT_JUSTIFY_LEFT"
-		color="Graphics.COLOR_BLUE" font="Graphics.FONT_SMALL"/>
-		
-	<label id="HRValue" x="center" y="center" 
-		justification="Graphics.TEXT_JUSTIFY_LEFT" 
-		color="Graphics.COLOR_ORANGE" font="Graphics.FONT_SMALL"  />
-		
-	<label id="HRComma" x="center" y="center" 
-		justification="Graphics.TEXT_JUSTIFY_LEFT" 
-		color="Graphics.COLOR_WHITE" font="Graphics.FONT_SMALL"  />
-		
+		color="Graphics.COLOR_ORANGE" font="Graphics.FONT_SMALL" />
+
+	<label id="HRComma" x="center" y="center"
+		justification="Graphics.TEXT_JUSTIFY_LEFT"
+		color="Graphics.COLOR_WHITE" font="Graphics.FONT_SMALL" />
+
 	<label id="StepsKey" x="center" y="center"
+		justification="Graphics.TEXT_JUSTIFY_LEFT" color="Graphics.COLOR_BLUE"
+		font="Graphics.FONT_SMALL" />
+
+	<label id="StepsValue" x="center" y="center"
 		justification="Graphics.TEXT_JUSTIFY_LEFT"
-		color="Graphics.COLOR_BLUE" font="Graphics.FONT_SMALL"/>
-		
-	<label id="StepsValue" x="center" y="center" 
-		justification="Graphics.TEXT_JUSTIFY_LEFT" 
-		color="Graphics.COLOR_ORANGE" font="Graphics.FONT_SMALL"  />
-	
-	<label id="StepsComma" x="center" y="center" 
-		justification="Graphics.TEXT_JUSTIFY_LEFT" 
-		color="Graphics.COLOR_WHITE" font="Graphics.FONT_SMALL"  />
-		
+		color="Graphics.COLOR_ORANGE" font="Graphics.FONT_SMALL" />
+
+	<label id="StepsComma" x="center" y="center"
+		justification="Graphics.TEXT_JUSTIFY_LEFT"
+		color="Graphics.COLOR_WHITE" font="Graphics.FONT_SMALL" />
+
 	<label id="CaloriesKey" x="center" y="center"
+		justification="Graphics.TEXT_JUSTIFY_LEFT" color="Graphics.COLOR_BLUE"
+		font="Graphics.FONT_SMALL" />
+
+	<label id="CaloriesValue" x="center" y="center"
 		justification="Graphics.TEXT_JUSTIFY_LEFT"
-		color="Graphics.COLOR_BLUE" font="Graphics.FONT_SMALL"/>
-		
-	<label id="CaloriesValue" x="center" y="center" 
-		justification="Graphics.TEXT_JUSTIFY_LEFT" 
-		color="Graphics.COLOR_ORANGE" font="Graphics.FONT_SMALL"  />
-		
+		color="Graphics.COLOR_ORANGE" font="Graphics.FONT_SMALL" />
+
 </layout>
