@@ -23,6 +23,8 @@ class JavascriptWatchFaceView extends WatchUi.WatchFace {
 	var valueColor = colors[1];
 	var commaColor = colors[1];
 	var bracketColor = colors[1];
+	
+	var screenSize = "large";
 
     function initialize() {
         WatchFace.initialize();
@@ -37,6 +39,11 @@ class JavascriptWatchFaceView extends WatchUi.WatchFace {
     	valueColor = colors[Application.getApp().getProperty("valueColor")];
     	bracketColor = colors[Application.getApp().getProperty("bracketColor")];
         commaColor = colors[Application.getApp().getProperty("commaColor")];
+        
+        self.watchService.setScreenSize();
+        
+        screenSize = Application.getApp().getProperty("screenSize");
+        
     }
 
     // Called when this View is brought to the foreground. Restore
@@ -80,7 +87,6 @@ class JavascriptWatchFaceView extends WatchUi.WatchFace {
         
         for(var i = 0; i < brackets.size(); i++) {
         	self.watchService.colorDrawable(brackets[i], "bracket");
-        	
         }
         
         self.watchService.colorDrawable(View.findDrawableById("ObjectName"), "key");
@@ -107,6 +113,11 @@ class JavascriptWatchFaceView extends WatchUi.WatchFace {
     
     function setupDrawables(drawables) {
     	for(var i = 0; i < drawables.size(); i++) {
+    		// cater for smaller screen
+			if(i > 0 && i < 4 && screenSize.equals("small")) {
+				drawables[i][2] = drawables[i][2] * constants.smallScreenModifier;
+			}
+			
 			var drawable = View.findDrawableById(drawables[i][0]);
 			drawable.setText(drawables[i][1]);
 			drawable.setLocation(drawables[i][2], drawables[i][3]);		
@@ -117,6 +128,7 @@ class JavascriptWatchFaceView extends WatchUi.WatchFace {
 			} else if(drawables[i][4].equals("bracket")) {
 				drawable.setColor(bracketColor);
 			}
+			
 		}
     }
     

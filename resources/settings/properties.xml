@@ -1,9 +1,17 @@
 <properties>
     <property id="appVersion" type="string">1.0.0</property>
-    <property id="backgroundColor" type="number">0x00000</property>
-    <property id="keyColor" type="number">4</property>
-    <property id="varColor" type="number">5</property>
-    <property id="valueColor" type="number">5</property>
-    <property id="bracketColor" type="number">6</property>
-    <property id="commaColor" type="number">1</property>
+    <property id="backgroundColor" type="number">0xFFFFFF</property>
+    <property id="keyColor" type="number">0</property>
+    <property id="varColor" type="number">0</property>
+    <property id="valueColor" type="number">0</property>
+    <property id="bracketColor" type="number">0</property>
+    <property id="commaColor" type="number">0</property>
+    
+    <property id="baseX" type="number">45</property>
+    <property id="baseY" type="number">20</property>
+    <property id="keyX" type="number">20</property>
+    <property id="lineBreak" type="number">22</property>
+    
+    <property id="screenSize" type="string">large</property>
+    <property id="charLength" type="number">10</property>
 </properties>
