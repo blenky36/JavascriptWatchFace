@@ -7,144 +7,120 @@ using Toybox.Application;
 class JavascriptWatchFaceService {
 
 	var constants = new JavascriptWatchFaceConstants();
+	var app = Application.getApp();
 	
-	var baseX = constants.baseX;
-	var baseY = constants.baseY;
-	var keyX = constants.keyX;
-	var lineBreak = constants.lineBreak;
-	var charLength = constants.charLength.toNumber();
+	var baseX = app.getProperty("baseX");
+	var baseY = app.getProperty("baseY");
+	var keyX = baseX + app.getProperty("keyX");
+	var lineBreak = app.getProperty("lineBreak");
 	
 	var colors = constants.colors;
 	
 	function setScreenSize() {
-		System.println("Setting Screen Size...");
 		var settings = System.getDeviceSettings();
-		var size = "large";
-		System.println("Height: " + settings.screenHeight);
-		System.println("Width: " + settings.screenWidth);
 		
-		if(settings.screenWidth == 250 && settings.screenHeight == 250) {
-			Application.getApp().setProperty("baseX", 50);
-			Application.getApp().setProperty("baseY", 25);
-			Application.getApp().setProperty("lineBreak", 24);
+		if(settings.screenHeight == 240 && settings.screenWidth == 240) {
+			app.setProperty("baseX", 50);
+			app.setProperty("baseY", 20);
+			app.setProperty("lineBreak", 23);
+		} else if(settings.screenWidth == 250 && settings.screenHeight == 250) {
+			app.setProperty("baseX", 50);
+			app.setProperty("baseY", 25);
+			app.setProperty("lineBreak", 24);
 		} else if(settings.screenWidth == 260 && settings.screenHeight == 260) {
-			Application.getApp().setProperty("baseX", 55);
-			Application.getApp().setProperty("baseY", 30);
-			Application.getApp().setProperty("lineBreak", 26);
-		} else if(settings.screenHeight < 220 && settings.screenWidth < 220) {
-			Application.getApp().setProperty("charLength", "8");
-			size = "small";	
+			app.setProperty("baseX", 55);
+			app.setProperty("baseY", 30);
+			app.setProperty("lineBreak", 26);
+		} else {
+			app.setProperty("baseX", 45);
+			app.setProperty("baseY", 20);
+			app.setProperty("lineBreak", 22);
 		}
-		Application.getApp().setProperty("screenSize", size);	
-		System.println("Screen Size set to: " + size);
-		System.println("Screen size setting is: " + Application.getApp().getProperty("screenSize"));
-		return size;
+	
 	}
 
 	
 	function colorDrawable(drawable, type) {
-    	drawable.setColor(colors[Application.getApp().getProperty(type + "Color")]);
+    	drawable.setColor(colors[app.getProperty(type + "Color")]);
+    }
+    
+    function positionTopText(topText) {
+    	var bY = app.getProperty("baseY");
+ 
+    	topText[0].setLocation(app.getProperty("baseX"), bY);
+    	topText[1].setLocation(topText[0].locX + topText[0].width, bY);
+    	topText[2].setLocation(topText[1].locX + topText[1].width + 5, bY + 2);
+    	topText[3].setLocation(topText[2].locX + topText[2].width + 5, bY);    	    	
+    	
     }
 
 
-	function showAndPositionTime(value, comma, size) {
+	function showAndPositionTime(key, value, comma) {
 		var timeString = getDateTime("time");
+		var bY = app.getProperty("baseY");
+		var kX = app.getProperty("baseX") + app.getProperty("keyX");
+		var lb = app.getProperty("lineBreak");
 		
-		var xValues = [60, 120];
-		handleScreenSize(xValues, size);
         value.setText("'" + timeString + "'");
-        value.setLocation(keyX + xValues[0], baseY + lineBreak);
+        value.setLocation(kX + key.width, bY + lb);
         
-        if(timeString.length() == 4) {
-        	comma.setLocation(keyX + xValues[1], baseY + lineBreak);
-        } else {
-        	comma.setLocation(keyX + xValues[1] + (1*charLength), baseY + lineBreak);        
-        }
-        
-        
+        comma.setLocation(kX + key.width + value.width + 2.5, bY + lb -4);
     }
 
-	function showAndPositionBattery(value, comma, size) {
+	function showAndPositionBattery(key, value, comma) {
         var battery = System.getSystemStats().battery.toNumber();
-        
-		var xValues = [55, 100];
-		handleScreenSize(xValues, size); 
+        var bY = app.getProperty("baseY");
+		var kX = app.getProperty("baseX") + app.getProperty("keyX");
+		var lb = app.getProperty("lineBreak");
+   
         value.setText("'" + battery + "%'");
-        value.setLocation(keyX + xValues[0], baseY + (2*lineBreak));
+        value.setLocation(kX + key.width, bY + (2*lb));
         
-        if(battery < 10) {
-        	comma.setLocation(keyX + xValues[1], baseY + (2*lineBreak));        	
-        } else if (battery >= 10 && battery != 100) {
-        	comma.setLocation(keyX + xValues[1] + (1*charLength), baseY + (2*lineBreak));
-        } else if (battery == 100) {
-        	comma.setLocation(keyX + xValues[1] + (2.5*charLength), baseY + (2*lineBreak));
-        }
-       
+        comma.setLocation(kX + key.width + value.width + 2.5, bY + (2*lb) -4);
     }
     
-    function showAndPositionDate(value, comma, size) {
+    function showAndPositionDate(key, value, comma) {
         var dateString = getDateTime("date");
+        var bY = app.getProperty("baseY");
+		var kX = app.getProperty("baseX") + app.getProperty("keyX");
+		var lb = app.getProperty("lineBreak");
        
-		var xValues = [60, 145];  
-		handleScreenSize(xValues, size);   
         value.setText("'" + dateString + "'");
-        value.setLocation(keyX + xValues[0], baseY + (3*lineBreak));
+        value.setLocation(kX + key.width, bY + (3*lb));
         
-        if(dateString.length() == 7) {
-        	comma.setLocation(keyX + xValues[1] + (0.9*charLength), baseY + (3*lineBreak));
-        } else if(dateString.length() == 8) {
-        	comma.setLocation(keyX + xValues[1] + (2*charLength), baseY + (3*lineBreak));        
-        } else {
-        	comma.setLocation(keyX + xValues[1], baseY + (3*lineBreak));
-        }
+        comma.setLocation(kX + key.width + value.width + 2.5, bY + (3*lb) -4);
         
     }
     
-    function showAndPositionHR(value, comma, size) {
+    function showAndPositionHR(key, value, comma) {
         var hr = Activity.getActivityInfo().currentHeartRate;
-        
-        var xValues = [35, 65];
-     	handleScreenSize(xValues, size); 
+        var bY = app.getProperty("baseY");
+		var kX = app.getProperty("baseX") + app.getProperty("keyX");
+		var lb = app.getProperty("lineBreak");
     
         if(hr == null) {
         	hr = " - ";
-        	comma.setLocation(keyX + xValues[1] + (0.5*charLength), baseY + (4*lineBreak));
-        } else if(hr.toString().length() == 1) {
-        	comma.setLocation(keyX + xValues[1] - (0.5*charLength), baseY + (4*lineBreak));
-        } else if(hr.toString().length() == 2) {
-        	comma.setLocation(keyX + xValues[1] + (1*charLength), baseY + (4*lineBreak));
-        } else {
-        	comma.setLocation(keyX + xValues[1] + (2.5*charLength), baseY + (4*lineBreak));
-        }
+       	}
+
         value.setText("'" + hr + "'");
-        value.setLocation(keyX + xValues[0], baseY + (4*lineBreak));
+        value.setLocation(kX + key.width, bY + (4*lb));
+        comma.setLocation(kX + key.width + value.width + 2.5, bY + (4*lb) -4);
     }
 		
-	function showAndPositionStepsAndCalories(sValue, comma, cValue, size) {
-    	// Get and show the current steps and calories
+	function showAndPositionStepsAndCalories(sKey, sValue, comma, cKey, cValue) {
        	var info = ActivityMonitor.getInfo();
        	var steps = info.steps;
-       	var sxValues = [70];
-       	var cxValues = [55];
-       	handleScreenSize(sxValues, size);
-       	handleScreenSize(cxValues, size);
+       	var bY = app.getProperty("baseY");
+		var kX = app.getProperty("baseX") + app.getProperty("keyX");
+		var lb = app.getProperty("lineBreak");
 
         sValue.setText("'" + steps + "'");
-        sValue.setLocation(keyX + sxValues[0], baseY + (5*lineBreak));
+        sValue.setLocation(kX + sKey.width, bY + (5*lb));
+        
+        comma.setLocation(kX + sKey.width + sValue.width + 2.5, bY + (5*lb) -4);
         
         cValue.setText("'" + info.calories + "'");
-        cValue.setLocation(keyX + cxValues[0], baseY + (6*lineBreak));
-        if(steps.toString().length() == 1) {
-        	comma.setLocation(keyX + sxValues[0] + (2.5*charLength), baseY + (5*lineBreak));
-        } else if(steps.toString().length() == 2) {
-        	comma.setLocation(keyX + sxValues[0] + (4*charLength), baseY + (5*lineBreak));
-        } else if(steps.toString().length() == 3) {
-        	comma.setLocation(keyX + sxValues[0] + (5*charLength), baseY + (5*lineBreak));
-        } else if(steps.toString().length() == 4) {
-        	comma.setLocation(keyX + sxValues[0] + (6.5*charLength), baseY + (5*lineBreak));
-        } else if(steps.toString().length() == 5) {
-        	comma.setLocation(keyX + sxValues[0] + (8*charLength), baseY + (5*lineBreak));        
-        }
+        cValue.setLocation(kX + cKey.width, bY + (6*lb));
       
     }
     
@@ -158,16 +134,6 @@ class JavascriptWatchFaceService {
         	var clockTime = System.getClockTime();
         	return Lang.format("$1$:$2$", [clockTime.hour, clockTime.min.format("%02d")]);
     	}
-    }
-    
-    function handleScreenSize(array, size) {
- 		System.println("Screen Size: " + size);
-    	if(size.equals("small")) {
-	    	array[0] = array[0] - 10;
-	    	if(array.size() > 1) {
-	    		array[1] = array[1] - 20;	    	
-	    	}
-	    }
     }
 
 }

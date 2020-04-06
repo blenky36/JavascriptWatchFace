@@ -7,7 +7,6 @@ class JavascriptWatchFaceConstants {
 	public var baseY = Application.getApp().getProperty("baseY");	
 	public var keyX = baseX + Application.getApp().getProperty("keyX");
 	public var lineBreak = Application.getApp().getProperty("lineBreak");
-	public var charLength = Application.getApp().getProperty("charLength");
 	
 	public const colors = [
 		Gfx.COLOR_BLACK, //0
@@ -23,13 +22,11 @@ class JavascriptWatchFaceConstants {
 		Gfx.COLOR_PINK, //10
 	];
 	
-	public const smallScreenModifier = 0.92;
-	
-	//   [ ID, text, x, y, type ]
-	public var drawableSetup = [["Var", "var ", baseX - 2, baseY, "none"], 
-    					 ["ObjectName", "watch", baseX + 42.5, baseY, "key"], 
-    					 ["Equals", "=", baseX + 115, baseY + 2, "comma"],
-    					 ["TopBracket", "{", baseX + 135, baseY, "bracket"],
+	//   [ ID, text, x, y, type, relative_position ]
+	public var drawableSetup = [["Var", "var ", baseX, baseY, "none"], 
+    					 ["ObjectName", "watch", baseX, baseY, "key"], 
+    					 ["Equals", "=", baseX, baseY + 2, "comma"],
+    					 ["TopBracket", "{", baseX, baseY, "bracket"],
     					 ["BottomBracket", "}", baseX, (baseY - 2) + (7*lineBreak), "bracket"],
     					 ["TimeKey", "time: ", keyX, baseY + lineBreak, "key"],
     					 ["BatteryKey", "batt: ", keyX, baseY + (2*lineBreak), "key"],
@@ -37,11 +34,11 @@ class JavascriptWatchFaceConstants {
     					 ["HRKey", "hr: ", keyX, baseY + (4*lineBreak), "key"],
     					 ["StepsKey", "steps: ", keyX, baseY + (5*lineBreak), "key"],
     					 ["CaloriesKey", "kcal: ", keyX, baseY + (6*lineBreak), "key"],
-    					 ["TimeComma", ",", baseX + 140, baseY + (2*lineBreak), "comma"],
-    					 ["DateComma", ",", baseX + 170, baseY + (2*lineBreak), "comma"],
-    					 ["BatteryComma", ",", baseX + 120, baseY + (2*lineBreak), "comma"],
-    					 ["HRComma", ",", baseX + 120, baseY + (4*lineBreak), "comma"],
-    					 ["StepsComma", ",", baseX + 125, baseY + (5*lineBreak), "comma"],
+    					 ["TimeComma", ",", baseX, baseY + (2*lineBreak), "comma"],
+    					 ["DateComma", ",", baseX, baseY + (2*lineBreak), "comma"],
+    					 ["BatteryComma", ",", baseX, baseY + (2*lineBreak), "comma"],
+    					 ["HRComma", ",", baseX, baseY + (4*lineBreak), "comma"],
+    					 ["StepsComma", ",", baseX, baseY + (5*lineBreak), "comma"]
     					];
 
 }

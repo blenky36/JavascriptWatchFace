@@ -24,8 +24,6 @@ class JavascriptWatchFaceView extends WatchUi.WatchFace {
 	var valueColor = colors[1];
 	var commaColor = colors[1];
 	var bracketColor = colors[1];
-	
-	var screenSize = "large";
 
     function initialize() {
         WatchFace.initialize();
@@ -34,17 +32,8 @@ class JavascriptWatchFaceView extends WatchUi.WatchFace {
 
     // Load your resources here
     function onLayout(dc) {
-    	System.println("Laying out resources");
     	setLayout(Rez.Layouts.WatchFace(dc));
-    	
-    	keyColor = colors[Application.getApp().getProperty("keyColor")];
-    	valueColor = colors[Application.getApp().getProperty("valueColor")];
-    	bracketColor = colors[Application.getApp().getProperty("bracketColor")];
-        commaColor = colors[Application.getApp().getProperty("commaColor")];
-               
-        screenSize = self.watchService.setScreenSize();
-        
-        
+    	self.setKeyValues();
     }
 
     // Called when this View is brought to the foreground. Restore
@@ -57,6 +46,8 @@ class JavascriptWatchFaceView extends WatchUi.WatchFace {
 
     // Update the view
     function onUpdate(dc) {
+    
+  		self.watchService.setScreenSize();
 
         var keys = [View.findDrawableById("TimeKey"), View.findDrawableById("DateKey"),
         	View.findDrawableById("BatteryKey"), View.findDrawableById("StepsKey"),
@@ -70,14 +61,19 @@ class JavascriptWatchFaceView extends WatchUi.WatchFace {
         	View.findDrawableById("BatteryComma"), View.findDrawableById("StepsComma"), 
         	View.findDrawableById("HRComma"), View.findDrawableById("Equals")];
         	
-       var brackets = [View.findDrawableById("TopBracket"), View.findDrawableById("BottomBracket")];
-        
-        screenSize = self.watchService.setScreenSize();
-        self.watchService.showAndPositionTime(values[0], commas[0], screenSize);
-        self.watchService.showAndPositionDate(values[1], commas[1], screenSize);
-        self.watchService.showAndPositionBattery(values[2], commas[2], screenSize);
-        self.watchService.showAndPositionStepsAndCalories(values[3], commas[3], values[4], screenSize);
-        self.watchService.showAndPositionHR(values[5], commas[4], screenSize);
+  		var topBracket = View.findDrawableById("TopBracket");
+        	
+       	var brackets = [topBracket, View.findDrawableById("BottomBracket")];
+       	
+       	var topText = [View.findDrawableById("Var"), View.findDrawableById("ObjectName"),
+       	View.findDrawableById("Equals"), topBracket];
+     
+        self.watchService.positionTopText(topText);
+        self.watchService.showAndPositionTime(keys[0], values[0], commas[0]);
+        self.watchService.showAndPositionDate(keys[1], values[1], commas[1]);
+        self.watchService.showAndPositionBattery(keys[2], values[2], commas[2]);
+        self.watchService.showAndPositionStepsAndCalories(keys[3], values[3], commas[3], keys[4], values[4]);
+        self.watchService.showAndPositionHR(keys[5], values[5], commas[4]);
         
         
         for(var i = 0; i < 6; i++) {
@@ -113,15 +109,12 @@ class JavascriptWatchFaceView extends WatchUi.WatchFace {
     
     
     function setupDrawables(drawables) {
+ 
     	for(var i = 0; i < drawables.size(); i++) {
-    		// cater for smaller screen
-			if(i > 0 && i < 4 && screenSize.equals("small")) {
-				drawables[i][2] = drawables[i][2] * constants.smallScreenModifier;
-			}
-			
 			var drawable = View.findDrawableById(drawables[i][0]);
 			drawable.setText(drawables[i][1]);
-			drawable.setLocation(drawables[i][2], drawables[i][3]);		
+			drawable.setLocation(drawables[i][2], drawables[i][3]);
+										
 			if(drawables[i][4].equals("key")) {
 				drawable.setColor(keyColor);
 			} else if(drawables[i][4].equals("comma")) {
@@ -133,5 +126,14 @@ class JavascriptWatchFaceView extends WatchUi.WatchFace {
 		}
     }
     
+    function setKeyValues() {
+    	var app = Application.getApp();
+    	keyColor = colors[app.getProperty("keyColor")];
+    	valueColor = colors[app.getProperty("valueColor")];
+    	bracketColor = colors[app.getProperty("bracketColor")];
+        commaColor = colors[app.getProperty("commaColor")];
+              
+    }
+     
 
 }

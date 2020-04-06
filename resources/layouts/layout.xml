@@ -34,7 +34,6 @@
 		justification="Graphics.TEXT_JUSTIFY_LEFT"
 		color="Graphics.COLOR_WHITE" font="Graphics.FONT_SMALL" />
 
-
 	<label id="DateKey" x="center" y="center"
 		justification="Graphics.TEXT_JUSTIFY_LEFT" color="Graphics.COLOR_BLUE"
 		font="Graphics.FONT_SMALL" />

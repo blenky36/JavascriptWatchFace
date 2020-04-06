@@ -11,7 +11,5 @@
     <property id="baseY" type="number">20</property>
     <property id="keyX" type="number">20</property>
     <property id="lineBreak" type="number">22</property>
-    
-    <property id="screenSize" type="string">large</property>
-    <property id="charLength" type="number">10</property>
+   
 </properties>
