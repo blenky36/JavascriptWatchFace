@@ -4,6 +4,7 @@ using Toybox.System;
 using Toybox.Lang;
 using Toybox.Graphics as Gfx;
 using Toybox.Application;
+using Toybox.WatchUi;
 
 
 class JavascriptWatchFaceView extends WatchUi.WatchFace {
@@ -33,16 +34,16 @@ class JavascriptWatchFaceView extends WatchUi.WatchFace {
 
     // Load your resources here
     function onLayout(dc) {
+    	System.println("Laying out resources");
     	setLayout(Rez.Layouts.WatchFace(dc));
     	
     	keyColor = colors[Application.getApp().getProperty("keyColor")];
     	valueColor = colors[Application.getApp().getProperty("valueColor")];
     	bracketColor = colors[Application.getApp().getProperty("bracketColor")];
         commaColor = colors[Application.getApp().getProperty("commaColor")];
+               
+        screenSize = self.watchService.setScreenSize();
         
-        self.watchService.setScreenSize();
-        
-        screenSize = Application.getApp().getProperty("screenSize");
         
     }
 
@@ -52,11 +53,11 @@ class JavascriptWatchFaceView extends WatchUi.WatchFace {
     function onShow() {
     	var drawables = self.constants.drawableSetup;
     	self.setupDrawables(drawables);
-		
     }
 
     // Update the view
     function onUpdate(dc) {
+
         var keys = [View.findDrawableById("TimeKey"), View.findDrawableById("DateKey"),
         	View.findDrawableById("BatteryKey"), View.findDrawableById("StepsKey"),
         	View.findDrawableById("CaloriesKey"), View.findDrawableById("HRKey")];
@@ -71,12 +72,12 @@ class JavascriptWatchFaceView extends WatchUi.WatchFace {
         	
        var brackets = [View.findDrawableById("TopBracket"), View.findDrawableById("BottomBracket")];
         
-        
-        self.watchService.showAndPositionTime(values[0], commas[0]);
-        self.watchService.showAndPositionDate(values[1], commas[1]);
-        self.watchService.showAndPositionBattery(values[2], commas[2]);
-        self.watchService.showAndPositionStepsAndCalories(values[3], commas[3], values[4]);
-        self.watchService.showAndPositionHR(values[5], commas[4]);
+        screenSize = self.watchService.setScreenSize();
+        self.watchService.showAndPositionTime(values[0], commas[0], screenSize);
+        self.watchService.showAndPositionDate(values[1], commas[1], screenSize);
+        self.watchService.showAndPositionBattery(values[2], commas[2], screenSize);
+        self.watchService.showAndPositionStepsAndCalories(values[3], commas[3], values[4], screenSize);
+        self.watchService.showAndPositionHR(values[5], commas[4], screenSize);
         
         
         for(var i = 0; i < 6; i++) {
@@ -91,7 +92,7 @@ class JavascriptWatchFaceView extends WatchUi.WatchFace {
         
         self.watchService.colorDrawable(View.findDrawableById("ObjectName"), "key");
         self.watchService.colorDrawable(View.findDrawableById("Var"), "var");
-        
+	
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
     }

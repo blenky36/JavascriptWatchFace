@@ -25,8 +25,6 @@ class JavascriptWatchFaceConstants {
 	
 	public const smallScreenModifier = 0.92;
 	
-	public var screenSize = Application.getApp().getProperty("screenSize");
-	
 	//   [ ID, text, x, y, type ]
 	public var drawableSetup = [["Var", "var ", baseX - 2, baseY, "none"], 
     					 ["ObjectName", "watch", baseX + 42.5, baseY, "key"], 
