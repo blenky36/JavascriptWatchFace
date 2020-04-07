@@ -24,21 +24,21 @@ class JavascriptWatchFaceConstants {
 	
 	//   [ ID, text, x, y, type, relative_position ]
 	public var drawableSetup = [["Var", "var ", baseX, baseY, "none"], 
-    					 ["ObjectName", "watch", baseX, baseY, "key"], 
-    					 ["Equals", "=", baseX, baseY + 2, "comma"],
-    					 ["TopBracket", "{", baseX, baseY, "bracket"],
-    					 ["BottomBracket", "}", baseX, (baseY - 2) + (7*lineBreak), "bracket"],
-    					 ["TimeKey", "time: ", keyX, baseY + lineBreak, "key"],
-    					 ["BatteryKey", "batt: ", keyX, baseY + (2*lineBreak), "key"],
-    					 ["DateKey", "date: ", keyX, baseY + (3*lineBreak), "key"],
-    					 ["HRKey", "hr: ", keyX, baseY + (4*lineBreak), "key"],
-    					 ["StepsKey", "steps: ", keyX, baseY + (5*lineBreak), "key"],
-    					 ["CaloriesKey", "kcal: ", keyX, baseY + (6*lineBreak), "key"],
-    					 ["TimeComma", ",", baseX, baseY + (2*lineBreak), "comma"],
-    					 ["DateComma", ",", baseX, baseY + (2*lineBreak), "comma"],
-    					 ["BatteryComma", ",", baseX, baseY + (2*lineBreak), "comma"],
-    					 ["HRComma", ",", baseX, baseY + (4*lineBreak), "comma"],
-    					 ["StepsComma", ",", baseX, baseY + (5*lineBreak), "comma"]
+    					 ["ObjectName", "watch", baseX + 40, baseY, "obj"], 
+    					 ["Equals", "=", baseX + 110, baseY + 2, "comma"],
+    					 ["TopBracket", "{", baseX + 125, baseY, "bracket"],
+    					 ["BottomBracket", "}", baseX + 2, (baseY - 4) + (7*lineBreak), "bracket"],
+    					 ["TimeKey", "time: ", keyX, baseY + lineBreak, "obj"],
+    					 ["BatteryKey", "batt: ", keyX, baseY + (2*lineBreak), "obj"],
+    					 ["DateKey", "date: ", keyX, baseY + (3*lineBreak), "obj"],
+    					 ["HRKey", "hr: ", keyX, baseY + (4*lineBreak), "obj"],
+    					 ["StepsKey", "steps: ", keyX, baseY + (5*lineBreak), "obj"],
+    					 ["CaloriesKey", "kcal: ", keyX, baseY + (6*lineBreak), "obj"],
+    					 ["TimeComma", ",", -100, baseY + (2*lineBreak), "comma"],
+    					 ["DateComma", ",", -100, baseY + (2*lineBreak), "comma"],
+    					 ["BatteryComma", ",", -100, baseY + (2*lineBreak), "comma"],
+    					 ["HRComma", ",", -100, baseY + (4*lineBreak), "comma"],
+    					 ["StepsComma", ",", -100, baseY + (5*lineBreak), "comma"]
     					];
 
 }

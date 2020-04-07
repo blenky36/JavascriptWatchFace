@@ -1,7 +1,7 @@
 <properties>
     <property id="appVersion" type="string">1.0.0</property>
     <property id="backgroundColor" type="number">0xFFFFFF</property>
-    <property id="keyColor" type="number">0</property>
+    <property id="objColor" type="number">0</property>
     <property id="varColor" type="number">0</property>
     <property id="valueColor" type="number">0</property>
     <property id="bracketColor" type="number">0</property>

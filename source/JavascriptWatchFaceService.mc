@@ -28,7 +28,7 @@ class JavascriptWatchFaceService {
 			app.setProperty("baseY", 25);
 			app.setProperty("lineBreak", 24);
 		} else if(settings.screenWidth == 260 && settings.screenHeight == 260) {
-			app.setProperty("baseX", 55);
+			app.setProperty("baseX", 60);
 			app.setProperty("baseY", 30);
 			app.setProperty("lineBreak", 26);
 		} else {
@@ -133,6 +133,8 @@ class JavascriptWatchFaceService {
     	} else if(type.equals("time")) {
         	var clockTime = System.getClockTime();
         	return Lang.format("$1$:$2$", [clockTime.hour, clockTime.min.format("%02d")]);
+    	} else {
+    		return "";
     	}
     }
 

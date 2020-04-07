@@ -20,14 +20,13 @@ class JavascriptWatchFaceView extends WatchUi.WatchFace {
 	
 	var colors = constants.colors;
 	
-	var keyColor = colors[1];
+	var objColor = colors[1];
 	var valueColor = colors[1];
 	var commaColor = colors[1];
 	var bracketColor = colors[1];
 
     function initialize() {
         WatchFace.initialize();
-
     }
 
     // Load your resources here
@@ -46,8 +45,28 @@ class JavascriptWatchFaceView extends WatchUi.WatchFace {
 
     // Update the view
     function onUpdate(dc) {
+ 		self.positionAndColorResources();
+	
+        // Call the parent onUpdate function to redraw the layout
+        View.onUpdate(dc);
+    }
+
+    // Called when this View is removed from the screen. Save the
+    // state of this View here. This includes freeing resources from
+    // memory.
+    function onHide() {
+    }
+
+    // The user has just looked at their watch. Timers and animations may be started here.
+    function onExitSleep() {
+    }
+
+    // Terminate any active timers and prepare for slow updates.
+    function onEnterSleep() {
+    }
     
-  		self.watchService.setScreenSize();
+    function positionAndColorResources() {
+    	self.watchService.setScreenSize();
 
         var keys = [View.findDrawableById("TimeKey"), View.findDrawableById("DateKey"),
         	View.findDrawableById("BatteryKey"), View.findDrawableById("StepsKey"),
@@ -79,32 +98,16 @@ class JavascriptWatchFaceView extends WatchUi.WatchFace {
         for(var i = 0; i < 6; i++) {
         	self.watchService.colorDrawable(commas[i], "comma");
         	self.watchService.colorDrawable(values[i], "value");
-        	self.watchService.colorDrawable(keys[i], "key");
+        	self.watchService.colorDrawable(keys[i], "obj");
         }
         
         for(var i = 0; i < brackets.size(); i++) {
         	self.watchService.colorDrawable(brackets[i], "bracket");
         }
         
-        self.watchService.colorDrawable(View.findDrawableById("ObjectName"), "key");
+        self.watchService.colorDrawable(View.findDrawableById("ObjectName"), "obj");
         self.watchService.colorDrawable(View.findDrawableById("Var"), "var");
-	
-        // Call the parent onUpdate function to redraw the layout
-        View.onUpdate(dc);
-    }
-
-    // Called when this View is removed from the screen. Save the
-    // state of this View here. This includes freeing resources from
-    // memory.
-    function onHide() {
-    }
-
-    // The user has just looked at their watch. Timers and animations may be started here.
-    function onExitSleep() {
-    }
-
-    // Terminate any active timers and prepare for slow updates.
-    function onEnterSleep() {
+    
     }
     
     
@@ -115,8 +118,8 @@ class JavascriptWatchFaceView extends WatchUi.WatchFace {
 			drawable.setText(drawables[i][1]);
 			drawable.setLocation(drawables[i][2], drawables[i][3]);
 										
-			if(drawables[i][4].equals("key")) {
-				drawable.setColor(keyColor);
+			if(drawables[i][4].equals("obj")) {
+				drawable.setColor(objColor);
 			} else if(drawables[i][4].equals("comma")) {
 				drawable.setColor(commaColor);
 			} else if(drawables[i][4].equals("bracket")) {
@@ -128,7 +131,7 @@ class JavascriptWatchFaceView extends WatchUi.WatchFace {
     
     function setKeyValues() {
     	var app = Application.getApp();
-    	keyColor = colors[app.getProperty("keyColor")];
+    	objColor = colors[app.getProperty("objColor")];
     	valueColor = colors[app.getProperty("valueColor")];
     	bracketColor = colors[app.getProperty("bracketColor")];
         commaColor = colors[app.getProperty("commaColor")];

@@ -1,6 +1,6 @@
 <settings>
 
-	<setting propertyKey="@Properties.backgroundColor" title="@Strings.backgroundColor" prompt="@Strings.objKeyColorPrompt">
+	<setting propertyKey="@Properties.backgroundColor" title="@Strings.backgroundColor" prompt="@Strings.backgroundColorPrompt">
         <settingConfig type="list">
             <listEntry value="0x000000">@Strings.Black</listEntry>
             <listEntry value="0x555555">@Strings.Dark_Grey</listEntry>
@@ -26,7 +26,7 @@
 		</settingConfig>
 	</setting>
 
-	<setting propertyKey="@Properties.keyColor"
+	<setting propertyKey="@Properties.objColor"
 		title="@Strings.objKeyColor" prompt="@Strings.objKeyColorPrompt">
 		<settingConfig type="list">
 			<listEntry value="0">@Strings.Black</listEntry>
