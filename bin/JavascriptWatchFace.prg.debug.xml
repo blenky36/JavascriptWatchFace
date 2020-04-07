@@ -149,29 +149,31 @@
 <entry filename="/Users/Phil/Projects/Eclipse/JavascriptWatchFace/source/JavascriptWatchFaceView.mc" id="32" lineNum="137" pc="268439881" symbol="setKeyValues"/>
 <entry filename="Rez" id="38" lineNum="15" pc="268439915" symbol="WatchFace"/>
 <entry filename="Rez" id="38" lineNum="17" pc="268439927" symbol="WatchFace"/>
-<entry filename="Rez" id="38" lineNum="18" pc="268439951" symbol="WatchFace"/>
-<entry filename="Rez" id="38" lineNum="19" pc="268440114" symbol="WatchFace"/>
-<entry filename="Rez" id="38" lineNum="20" pc="268440277" symbol="WatchFace"/>
-<entry filename="Rez" id="38" lineNum="21" pc="268440440" symbol="WatchFace"/>
-<entry filename="Rez" id="38" lineNum="22" pc="268440603" symbol="WatchFace"/>
-<entry filename="Rez" id="38" lineNum="23" pc="268440766" symbol="WatchFace"/>
-<entry filename="Rez" id="38" lineNum="24" pc="268440929" symbol="WatchFace"/>
-<entry filename="Rez" id="38" lineNum="25" pc="268441092" symbol="WatchFace"/>
-<entry filename="Rez" id="38" lineNum="26" pc="268441255" symbol="WatchFace"/>
-<entry filename="Rez" id="38" lineNum="27" pc="268441418" symbol="WatchFace"/>
-<entry filename="Rez" id="38" lineNum="28" pc="268441581" symbol="WatchFace"/>
-<entry filename="Rez" id="38" lineNum="29" pc="268441744" symbol="WatchFace"/>
-<entry filename="Rez" id="38" lineNum="30" pc="268441907" symbol="WatchFace"/>
-<entry filename="Rez" id="38" lineNum="31" pc="268442070" symbol="WatchFace"/>
-<entry filename="Rez" id="38" lineNum="32" pc="268442233" symbol="WatchFace"/>
-<entry filename="Rez" id="38" lineNum="33" pc="268442396" symbol="WatchFace"/>
-<entry filename="Rez" id="38" lineNum="34" pc="268442559" symbol="WatchFace"/>
-<entry filename="Rez" id="38" lineNum="35" pc="268442722" symbol="WatchFace"/>
-<entry filename="Rez" id="38" lineNum="36" pc="268442885" symbol="WatchFace"/>
-<entry filename="Rez" id="38" lineNum="37" pc="268443048" symbol="WatchFace"/>
-<entry filename="Rez" id="38" lineNum="38" pc="268443211" symbol="WatchFace"/>
-<entry filename="Rez" id="38" lineNum="39" pc="268443374" symbol="WatchFace"/>
-<entry filename="Rez" id="38" lineNum="41" pc="268443537" symbol="WatchFace"/>
+<entry filename="Rez" id="38" lineNum="18" pc="268439940" symbol="WatchFace"/>
+<entry filename="Rez" id="38" lineNum="20" pc="268439953" symbol="WatchFace"/>
+<entry filename="Rez" id="38" lineNum="21" pc="268439977" symbol="WatchFace"/>
+<entry filename="Rez" id="38" lineNum="22" pc="268440140" symbol="WatchFace"/>
+<entry filename="Rez" id="38" lineNum="23" pc="268440303" symbol="WatchFace"/>
+<entry filename="Rez" id="38" lineNum="24" pc="268440466" symbol="WatchFace"/>
+<entry filename="Rez" id="38" lineNum="25" pc="268440629" symbol="WatchFace"/>
+<entry filename="Rez" id="38" lineNum="26" pc="268440792" symbol="WatchFace"/>
+<entry filename="Rez" id="38" lineNum="27" pc="268440955" symbol="WatchFace"/>
+<entry filename="Rez" id="38" lineNum="28" pc="268441118" symbol="WatchFace"/>
+<entry filename="Rez" id="38" lineNum="29" pc="268441281" symbol="WatchFace"/>
+<entry filename="Rez" id="38" lineNum="30" pc="268441444" symbol="WatchFace"/>
+<entry filename="Rez" id="38" lineNum="31" pc="268441607" symbol="WatchFace"/>
+<entry filename="Rez" id="38" lineNum="32" pc="268441770" symbol="WatchFace"/>
+<entry filename="Rez" id="38" lineNum="33" pc="268441933" symbol="WatchFace"/>
+<entry filename="Rez" id="38" lineNum="34" pc="268442096" symbol="WatchFace"/>
+<entry filename="Rez" id="38" lineNum="35" pc="268442259" symbol="WatchFace"/>
+<entry filename="Rez" id="38" lineNum="36" pc="268442422" symbol="WatchFace"/>
+<entry filename="Rez" id="38" lineNum="37" pc="268442585" symbol="WatchFace"/>
+<entry filename="Rez" id="38" lineNum="38" pc="268442748" symbol="WatchFace"/>
+<entry filename="Rez" id="38" lineNum="39" pc="268442911" symbol="WatchFace"/>
+<entry filename="Rez" id="38" lineNum="40" pc="268443074" symbol="WatchFace"/>
+<entry filename="Rez" id="38" lineNum="41" pc="268443237" symbol="WatchFace"/>
+<entry filename="Rez" id="38" lineNum="42" pc="268443400" symbol="WatchFace"/>
+<entry filename="Rez" id="38" lineNum="44" pc="268443563" symbol="WatchFace"/>
 </pcToLineNum>
 <symbolTable>
 <entry id="8388644" module="true" symbol="System"/>
@@ -334,30 +336,32 @@
 <entry endPc="268439760" name="i" stackId="2" startPc="268439507"/>
 <entry endPc="268439761" name="drawables" stackId="1" startPc="268439479"/>
 <entry endPc="268439914" name="app" stackId="1" startPc="268439765"/>
-<entry endPc="268443774" name="rez_cmp_local_text_ObjectName" stackId="4" startPc="268439927"/>
-<entry endPc="268443774" name="rez_cmp_local_text_CaloriesKey" stackId="23" startPc="268439927"/>
-<entry endPc="268443774" name="rez_cmp_local_text_BatteryComma" stackId="16" startPc="268439927"/>
-<entry endPc="268443774" name="rez_cmp_local_text_CaloriesValue" stackId="24" startPc="268439927"/>
-<entry endPc="268443774" name="rez_cmp_local_text_StepsValue" stackId="21" startPc="268439927"/>
-<entry endPc="268443774" name="rez_cmp_local_text_DateValue" stackId="12" startPc="268439927"/>
-<entry endPc="268443774" name="rez_cmp_local_text_HRKey" stackId="17" startPc="268439927"/>
-<entry endPc="268443774" name="rez_cmp_local_text_BottomBracket" stackId="7" startPc="268439927"/>
-<entry endPc="268443774" name="rez_cmp_local_text_HRValue" stackId="18" startPc="268439927"/>
-<entry endPc="268443774" name="rez_cmp_local_text_TopBracket" stackId="6" startPc="268439927"/>
-<entry endPc="268443774" name="rez_cmp_local_text_Equals" stackId="5" startPc="268439927"/>
-<entry endPc="268443774" name="rez_cmp_local_text_TimeValue" stackId="9" startPc="268439927"/>
-<entry endPc="268443774" name="rez_cmp_local_text_StepsKey" stackId="20" startPc="268439927"/>
-<entry endPc="268443774" name="rez_cmp_local_text_DateKey" stackId="11" startPc="268439927"/>
-<entry endPc="268443774" name="rez_cmp_local_text_StepsComma" stackId="22" startPc="268439927"/>
-<entry endPc="268443774" name="rez_cmp_local_text_DateComma" stackId="13" startPc="268439927"/>
-<entry endPc="268443774" name="rez_cmp_local_text_HRComma" stackId="19" startPc="268439927"/>
-<entry endPc="268443774" name="rez_cmp_local_text_TimeKey" stackId="8" startPc="268439927"/>
-<entry endPc="268443774" name="rez_cmp_local_custom_drawable_12636807451078086868" stackId="2" startPc="268439927"/>
-<entry endPc="268443774" name="rez_cmp_local_text_TimeComma" stackId="10" startPc="268439927"/>
-<entry endPc="268443774" name="rez_cmp_local_text_Var" stackId="3" startPc="268439927"/>
-<entry endPc="268443774" name="rez_cmp_local_text_BatteryKey" stackId="14" startPc="268439927"/>
-<entry endPc="268443774" name="rez_cmp_local_text_BatteryValue" stackId="15" startPc="268439927"/>
-<entry endPc="268443775" name="dc" stackId="1" startPc="268439915"/>
+<entry endPc="268443800" name="rez_cmp_local_text_ObjectName" stackId="6" startPc="268439927"/>
+<entry endPc="268443800" name="rez_cmp_local_var_dc_getHeight" stackId="2" startPc="268439927"/>
+<entry endPc="268443800" name="rez_cmp_local_text_CaloriesKey" stackId="25" startPc="268439927"/>
+<entry endPc="268443800" name="rez_cmp_local_text_BatteryComma" stackId="18" startPc="268439927"/>
+<entry endPc="268443800" name="rez_cmp_local_text_CaloriesValue" stackId="26" startPc="268439927"/>
+<entry endPc="268443800" name="rez_cmp_local_text_StepsValue" stackId="23" startPc="268439927"/>
+<entry endPc="268443800" name="rez_cmp_local_text_DateValue" stackId="14" startPc="268439927"/>
+<entry endPc="268443800" name="rez_cmp_local_text_HRKey" stackId="19" startPc="268439927"/>
+<entry endPc="268443800" name="rez_cmp_local_text_BottomBracket" stackId="9" startPc="268439927"/>
+<entry endPc="268443800" name="rez_cmp_local_text_HRValue" stackId="20" startPc="268439927"/>
+<entry endPc="268443800" name="rez_cmp_local_text_TopBracket" stackId="8" startPc="268439927"/>
+<entry endPc="268443800" name="rez_cmp_local_text_Equals" stackId="7" startPc="268439927"/>
+<entry endPc="268443800" name="rez_cmp_local_text_TimeValue" stackId="11" startPc="268439927"/>
+<entry endPc="268443800" name="rez_cmp_local_var_dc_getWidth" stackId="3" startPc="268439927"/>
+<entry endPc="268443800" name="rez_cmp_local_text_StepsKey" stackId="22" startPc="268439927"/>
+<entry endPc="268443800" name="rez_cmp_local_text_DateKey" stackId="13" startPc="268439927"/>
+<entry endPc="268443800" name="rez_cmp_local_text_StepsComma" stackId="24" startPc="268439927"/>
+<entry endPc="268443800" name="rez_cmp_local_text_DateComma" stackId="15" startPc="268439927"/>
+<entry endPc="268443800" name="rez_cmp_local_text_HRComma" stackId="21" startPc="268439927"/>
+<entry endPc="268443800" name="rez_cmp_local_text_TimeKey" stackId="10" startPc="268439927"/>
+<entry endPc="268443800" name="rez_cmp_local_text_TimeComma" stackId="12" startPc="268439927"/>
+<entry endPc="268443800" name="rez_cmp_local_text_Var" stackId="5" startPc="268439927"/>
+<entry endPc="268443800" name="rez_cmp_local_custom_drawable_11175137551592706174" stackId="4" startPc="268439927"/>
+<entry endPc="268443800" name="rez_cmp_local_text_BatteryKey" stackId="16" startPc="268439927"/>
+<entry endPc="268443800" name="rez_cmp_local_text_BatteryValue" stackId="17" startPc="268439927"/>
+<entry endPc="268443801" name="dc" stackId="1" startPc="268439915"/>
 </localVars>
 <annotations/>
 <dataEntryOffsetMappings>

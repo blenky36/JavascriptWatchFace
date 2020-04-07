@@ -1,0 +1,10 @@
+Title:
+	Javascript Watch Face
+Description:
+	This is a watch face in the style of a Javascript object displaying time, date, battery percentage, heart rate, step count and calories burnt.
+	The colors of the watch face are fully customisable to allow users to create their own theme.
+
+Repo URL:
+	https://github.com/blenky36/JavascriptWatchFace.git
+ 
+	
